@@ -60,13 +60,16 @@ body {
 	font-family: "Crimson Text", sans-serif;
 	font-size: 20px;
 	line-height: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	grid-column: 2 / span 6;
 	grid-row: 5 / span 2;
 	columns: 2;
+	gap: 20px;
 }
 
 .find-grid-content {
-	break-inside: auto;
+	break-inside: avoid;
 }
 
 .similar-font,

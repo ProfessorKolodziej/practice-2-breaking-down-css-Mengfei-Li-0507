@@ -61,12 +61,12 @@ body {
 	font-size: 20px;
 	line-height: 30px;
 	grid-column: 2 / span 6;
-	grid-row: 5 / span 4;
+	grid-row: 5 / span 5;
 	columns: 2;
 	gap: 20px;
 }
 
-.find-grid-content {
+.find-grid-content p {
 	break-inside: avoid;
 }
 
